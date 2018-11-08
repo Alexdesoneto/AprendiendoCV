@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 public class PruebaCirculo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Circulito circulo = new Circulito( 37, 43, 2.5 );
         String salida = "La coordenada X es " + circulo.obtenerX() +
         "\nLa coordenada Y es " + circulo.obtenerY() +
@@ -28,7 +28,6 @@ public class PruebaCirculo {
         salida += "\nEl área es " + dosDigitos.format( circulo.obtenerArea() );
         JOptionPane.showMessageDialog( null, salida );
         System.exit( 0 );
-
-    }
-    
+        System.out.println("Hola mundo");
+    }  
 }
